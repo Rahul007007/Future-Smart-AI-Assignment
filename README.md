@@ -1,2 +1,2 @@
 # Future-Smart-AI-Assignment
-This repositiry contains the assignment.
+This repository contains the assignment.
