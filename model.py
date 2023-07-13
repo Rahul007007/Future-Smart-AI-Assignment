@@ -40,7 +40,7 @@ basic_prompt_template = PromptTemplate(input_variables = ["REPORT", "LABEL"],
 few_shot_template = FewShotPromptTemplate(
     examples = examples,
     example_prompt = basic_prompt_template,
-    prefix = "You are given a set of REPORTS and their labels. Classify the REPORTS based on their labels. If you do not know the label correctly, return 'Invalid input'.\n\n",
+    prefix = "You are given a set of REPORTS and their labels. Classify the REPORTS based on their labels with a high classification accuracy. If you do not know the label correctly, return 'Invalid input'.\n\n",
     suffix= 'REPORT: {REPORT}\nLabel:',
     input_variables = ['REPORT'],
     example_separator = '\n'
